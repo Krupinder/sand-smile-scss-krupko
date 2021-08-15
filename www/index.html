@@ -1,19 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый проект</title>
-    <link rel="stylesheet" href="style/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <div class="promo">
-        <div class="promo-inner">
-            <h1 class="promo-ttl">Заголовок сайта</h1>
-            <p class="promo-slogan">Описание сайта, типа тут все самое офиггенное и опупенное</p>
-        </div>
-    </div>
 
-    <script src="scripts/script.js"></script>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="headline">SandSmile</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Мастер-классы</a></li>
+                    <li><a href="#">Локации</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Сувениры</a></li>
+                    <li><a href="tel:+78128888888" class="phone-number">+7 812 888-88-88</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="promo">
+            <div class="promo-bgcolor">
+                <div class="container">
+                    <h2 class="promo-title">SandSmile</h2>
+                    <p>Учим строить песочные замки, проводим мастер-классы для взрослых и детей в Санкт-Петербурге и
+                        Ленинградской области</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services-bgcolor">
+                <div class="container">
+                    <h2 class="services-title">Мастер-классы</h2>
+                    <ul class="services-list">
+                        <li>
+                            <div class="services-item">
+                                <img src="images/kids.jpg" alt="Дети на пляже">
+                                <h3 class="services-head">Детский</h3>
+                                <p>Внедрение современных методик позволяет оценить</p>
+                                <ul class="services-info">
+                                    <li class="services-item-info">от 8 лет</li>
+                                    <li class="services-item-info">2 часа</li>
+                                    <li class="services-item-info">до 6 человек</li>
+                                </ul>
+                                <p>10 000 руб</p>
+                                <a href="#" class="btn">Заказать</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="services-item">
+                                <img src="images/family.jpg" alt="Семья на пляже">
+                                <h3 class="services-head">Семейный</h3>
+                                <p>В целом, конечно, внедрение современных методик обеспечивает широкому кругу (специалистов)
+                                    участие в формировании экспериментов</p>
+                                <ul class="services-info">
+                                    <li class="services-item-info">3 часа</li>
+                                    <li class="services-item-info">до 6 человек</li>
+                                    <li class="services-item-info">20 фото 10x15</li>
+                                </ul>
+                                <p>20 000 руб</p>
+                                <a href="#" class="btn">Заказать</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="services-item">
+                                <img src="images/group.jpg" alt="Вечеринка на пляже">
+                                <h3 class="services-head">На компанию</h3>
+                                <p>Не обещаем, что вы запомните мастер-класс :) Но оторветесь по полной!</p>
+                                <ul class="services-info">
+                                    <li class="services-item-info">от 18 лет</li>
+                                    <li class="services-item-info">с 19-00 и до утра</li>
+                                    <li class="services-item-info">x человек</li>
+                                    <li class="services-item-info">x коктейли</li>
+                                    <li class="services-item-info">DJ</li>
+                                </ul>
+                                <p>5 000 руб/чел</p>
+                                <a href="#" class="btn">Заказать</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="events-gallery">
+            <div class="container">
+                <h2 class="event-photos">Фото с мероприятий</h2>
+                <p>vdnvdnkvgnd</p>
+            </div>
+        </section>
+
+        <section class="locations">
+            <div class="container">
+                <h2 class="locations-head">Локации</h2>
+                <ul class="locations-list">
+                    <li class="location-item">
+                        <h3 class="location-name">Пляж петропавловской крепости</h3>
+                        <a href="#">Подробнее о локации</a>
+                    </li>
+                    <li class="location-item">
+                        <h3 class="location-name">Осиновецкий маяк</h3>
+                        <a href="#">Подробнее о локации</a>
+                    </li>
+                    <li class="location-item">
+                        <h3 class="location-name">Ласковый пляж в курортном районе</h3>
+                        <a href="#">Подробнее о локации</a>
+                    </li>
+                    <li class="location-item">
+                        <h3 class="location-name">Парк имени 300 летия Санкт-Петербурга</h3>
+                        <a href="#">Подробнее о локации</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2 class="team-logo">Команда</h2>
+                <li class="employee-list">
+                    <ul class="employee-card">
+                        <img src="#" alt="Sir Lee Wow I">
+                        <h3 class="employee-name">Sir Lee Wow I</h3>
+                    </ul>
+                    <ul class="employee-card">
+                        <img src="#" alt="Penelope">
+                        <h3 class="employee-name">Penelope</h3>
+                    </ul>
+                    <ul class="employee-card">
+                        <img src="#" alt="Mr. B.B.">
+                        <h3 class="employee-name">Mr. B.B.</h3>
+                    </ul>
+                    <ul class="employee-card">
+                        <img src="#" alt="Sir Lee Wow I">
+                        <h3 class="employee-name">Sir Lee Wow I</h3>
+                    </ul>
+                </li>
+                <div class="employee-description">
+                    <h3 class="employee-name"></h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
 </body>
+
 </html>
