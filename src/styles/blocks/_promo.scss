@@ -1,27 +1,31 @@
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
-}
+  background-image: url(../images/bg-sand-castle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
-
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
+  p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    padding-bottom: 235px;
+    color: #fff;
+    margin: 0;
   }
 }
 
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
+.promo-title {
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 136px;  
+  text-align: center; 
+  padding-top: 191px;
+  margin: 0;
+  font-family: 'Raleway';
+  color: #fff;
+}
 
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
-
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
+.promo-bgcolor {
+  background-color: rgba(21, 43, 60, 0.5);
 }

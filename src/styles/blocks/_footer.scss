@@ -1,0 +1,49 @@
+.footer {
+    background-color: #152B3C;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FBF2DA;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons-item {
+    margin-left: 15px;
+}
+
+.social-icons-link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 0;
+}
+
+.social-icons-link-instagram {
+    background-color: pink;
+}
+
+.social-icons-link-facebook {
+    background-color: lightblue;
+}
+
+.social-icons-link-telegram {
+    background-color: blue;
+}
